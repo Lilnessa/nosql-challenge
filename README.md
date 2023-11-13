@@ -2,7 +2,7 @@
 ---
 ## Part 1: Database and Jupyter Notebook Set Up 
 ### File: NoSQL_setup_starter.ipynb
-* Import the data provided in the establishments.json file from your Terminal. Named the database uk_food and the collection establishments. Copied the text you used to import your data from your Terminal to a markdown cell in your notebook.
+* Importe the data provided in the establishments.json file from my Terminal. Named the database uk_food and the collection establishments. Copied the text you used to import your data from your Terminal to a markdown cell in your notebook.
 * Imported the libraries needed: PyMongo and Pretty Print (pprint).
 * Created an instance of the Mongo Client.
 * Confirmed the database was created and data was properly loaded:
@@ -19,6 +19,7 @@
 * Converted number values that were stored as strings.
     * Used "update_many" to convert "latitude" and "longitude" to decimal numbers.
     * Used "update_many" to convert "RatingValue" to integer numbers.
+---
 ## Part 3: Exploratory Analysis
 ### File: NoSQL_analysis_starter.ipynb
 * Found which establishments have a hygiene score equal to 20.
